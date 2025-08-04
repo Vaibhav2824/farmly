@@ -1,5 +1,8 @@
 
 🌾 Farmly
+
+
+
 Farmly is a modern, intuitive web platform that directly connects farmers and farm owners with consumers, eliminating the need for middlemen. By streamlining the farm-to-table process, Farmly empowers farmers to earn fair prices and helps consumers access fresh, locally-sourced fruits, vegetables, meats, and poultry.
 🛠️ Tech Stack
 - Frontend: React, JavaScript, HTML, CSS
