@@ -1,0 +1,157 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .vendor-onboarding-page {
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #e8f5e9;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    color: #4caf50;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Process Section */
+  .process-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .process-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .process-steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .step {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Benefits Section */
+  .benefits-section {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .benefits-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .benefit {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .benefit img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+  }
+  
+  /* Call to Action Section */
+  .cta-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .cta-btn {
+    background: white;
+    color: #4caf50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .cta-btn:hover {
+    background-color: #fff176;
+  }
+  
+  /* Footer */
+  .vendor-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .vendor-container {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .vendor-hero-section {
+    height: 600px;
+    width: 100%;
+    background-image: url('https://environment.co/wp-content/uploads/sites/4/2024/03/squaddeepfx_vendor_at_farmers_market_selling_fresh_produce_at_d_e39a7367-0b12-42f6-8bea-14c7a1a91378.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .vendor-hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .vendor-hero-content {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  

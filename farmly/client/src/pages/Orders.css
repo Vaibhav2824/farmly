@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .orders-page {
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #e8f5e9;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    color: #4caf50;
+  }
+  
+  /* Orders Section */
+  .orders-section {
+    padding: 50px;
+  }
+  
+  .orders-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .order-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .order-header h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .order-header p {
+    margin: 5px 0;
+  }
+  
+  .order-header .status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .status.delivered {
+    background-color: #4caf50;
+  }
+  
+  .status.in-transit {
+    background-color: #ff9800;
+  }
+  
+  .order-items {
+    margin: 20px 0;
+  }
+  
+  .order-total {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .orders-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .orders-container {
+    min-height: 100vh;
+  }
+  
+  .orders-hero {
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('https://www.supplychainbrain.com/ext/resources/2023/04/19/OMNICHANNEL-ECOMMERCE-iStock-TarikVision-1407898679.jpg?t=1682310006&width=1080');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .orders-hero h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  

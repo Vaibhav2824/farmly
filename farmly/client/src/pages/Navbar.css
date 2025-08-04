@@ -1,0 +1,67 @@
+/* General Navbar Styling */
+.navbar {
+  background-color: #4caf50; /* Primary green background */
+  padding: 20px 50px; /* Larger padding for a bigger navbar */
+  position: sticky; /* Sticks to the top when scrolling */
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Styling */
+.logo a {
+  font-size: 2rem; /* Larger font size for the logo */
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.logo a:hover {
+  color: #ffeb3b; /* Yellow on hover */
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem; /* Slightly larger text for links */
+  font-weight: 500;
+  padding: 10px 15px; /* Adds spacing around links */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #388e3c; /* Darker green on hover */
+  color: #ffeb3b; /* Yellow text on hover */
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Smaller gap on smaller screens */
+  }
+
+  .logo a {
+    font-size: 1.8rem; /* Slightly smaller logo on mobile */
+  }
+
+  .nav-links a {
+    font-size: 1rem; /* Smaller links on mobile */
+    padding: 8px 12px;
+  }
+}

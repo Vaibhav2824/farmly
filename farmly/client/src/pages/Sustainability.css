@@ -1,0 +1,189 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .sustainability-page {
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #e8f5e9;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    color: #4caf50;
+  }
+  
+  .hero-image {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  /* Initiatives Section */
+  .initiatives-section {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .initiatives-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .initiatives-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .initiative-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .initiative-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Why It Matters Section */
+  .why-it-matters-section {
+    padding: 50px;
+    background-color: #e8f5e9;
+  }
+  
+  .why-it-matters-section ul {
+    list-style: disc;
+    margin: 20px auto;
+    max-width: 600px;
+    padding-left: 40px;
+    line-height: 1.6;
+  }
+  
+  /* How You Can Help Section */
+  .how-you-can-help-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .how-you-can-help-section ul {
+    list-style: disc;
+    margin: 20px auto;
+    max-width: 600px;
+    padding-left: 40px;
+    line-height: 1.6;
+  }
+  
+  .get-involved-btn {
+    background: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .get-involved-btn:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Footer */
+  .sustainability-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .sustainability-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .sustainability-container {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .sustainability-hero-section {
+    height: 600px;
+    width: 100%;
+    background-image: url('https://richterproduce.com/wp-content/uploads/2016/03/strawberry-greenhouse-300x202.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sustainability-hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .sustainability-hero-content {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    padding: 20px;
+  }
+  
+  .sustainability-hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sustainability-hero-content .tagline {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .sustainability-hero-section {
+      height: 400px;
+    }
+  }
+  
